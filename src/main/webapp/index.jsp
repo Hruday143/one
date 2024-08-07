@@ -1,7 +1,10 @@
-<html>
-<body>
-	<h1 style="color: violet; font-size: 40px;" align="center">HEY THIS IS MOHAMMED FAISAL</h1>
-	<h1 style="color: red; font-size: 40px;" align="center">I DEPLOY THE APPLICATION INTO TOMCAT WEB SERVER</h1>
-	<h2 style="color: blue; font-size: 40px;" align="center">THANKS FOR VISITING  </h2>	
-</body>
-</html>
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
